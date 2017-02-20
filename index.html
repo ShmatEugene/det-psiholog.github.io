@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Финансово-литературная викторина</title>
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="magic.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <script>
+            function getValue() {
+                var playerOneName = document.getElementById("player-1-name").value;
+                var playerTwoName = document.getElementById("player-2-name").value;
+                var playerThreeName = document.getElementById("player-3-name").value;
+                
+                document.getElementById('player01-name').innerHTML = playerOneName;
+                document.getElementById('player02-name').innerHTML = playerTwoName;
+                document.getElementById('player03-name').innerHTML = playerThreeName;
+            }
+        </script>
+	</head>
+	<body id="body">	
+		
+
+		<div id="pt-main" class="pt-perspective">
+			<div class="pt-page pt-page-1">   
+                    <div class="container-fluid home-wrap">
+                        <div class="container">  
+                            <div class="project-name">
+                                    Финансово-литературная викторина
+                            </div>
+                            <button onclick="overflow()" id="iterateEffects" class="pt-touch-button btn btn-default start-btn">Начать</button>
+                        </div>
+                    </div>    
+                
+            </div>
+			<div id="pt-page" class="pt-page pt-page-2">
+                <main class="cd-main-content">
+                <div class="cd-fixed-bg cd-bg-1">
+                    <div class="desc-box">
+                       <p class="desc">Финансовая грамотность – достаточный уровень знаний и навыков в области финансов, который позволяет правильно оценивать ситуацию на рынке, принимать разумные решения и понимать, как те или иные процессы с финансами повлияют на жизнь.</p>
+                    </div>
+                </div> 
+
+                <div class="cd-fixed-bg cd-bg-3">
+                    <div class="desc-box desc-box-right">
+                       <p class="desc">Причем это касается не только деятельности конкретного человека и конкретно его жизни, но и процессов в экономике. Также финансовой грамотностью можно назвать умение правильно распоряжаться своими доходами, оценивать последствия расходов, планировать бюджет и т.п.</p>
+                    </div>
+                </div> 
+
+
+                <div class="cd-fixed-bg cd-bg-2">
+                    <div class="desc-box">
+                       <p class="desc">Весомой проблемой нашего времени является финансовая безграмотность. Люди не умеют правильно и грамотно распоряжаться деньгами, что приводит к ухудшению благосостояния и экономическому упадку страны.</p>
+                    </div>
+                </div> 
+                <div class="cd-fixed-bg cd-bg-4">
+                    <div class="desc-box desc-box-right">
+                       <p class="desc">Но не обязательно совершать ошибки и "наступать на грабли" самому. Достаточно грамотно оценить поступки литературных героев: разобрать их неудачи, научиться на успехе в какой-либо области и грамотно применить в своей жизни.</p>
+                    </div>
+                </div>
+                <div class="cd-fixed-bg cd-bg-5">
+                    <div class="desc-box">
+                       <p class="desc">Цель проекта "Финансово-литературная викторина" - создать интерактивную викторину, позволяющую оценить свои знания литературных произведений со стороны финансов, а также "сразиться" в этом с другими.</p>
+                    </div>
+                </div>
+                <div class="cd-fixed-bg cd-bg-6">
+                    <div class="rules-box">
+                        <div class="rules-text">
+                            <div class="rules-title">
+                                Правила викторины
+                            </div>
+                            <div class="rules-content">
+                                Финансово-литературная викторина – это викторина для трёх человек. 
+                                Цель игры – набрать наибольшее количество очков.
+                                Викторина длится 7 туров.
+                                Каждому игроку изначально присвоено 12 вопросов ( 6 лёгких – за один балл, 4 средних – за 2 балла и 2 сложных – за три балла). Сумма баллов за эти вопросы составляет начальное количество баллов игрока. Каждый игрок  может выбрать любой вопрос, который не принадлежит ему. Если участник правильно ответил на вопрос, то ему начисляются баллы, а у игрока, которому принадлежал вопрос, баллы отнимаются. 
+
+                            </div>
+                            <input class="start-btn-story" id="next-page" onClick='location.href="#page-top", getValue()' type="submit" value="приступить">
+                        </div>
+                    </div>
+                    <div class="names-box">
+                        <div class="names-text">
+                            <div class="rules-title">
+                                Введите имена
+                            </div>
+                            <div class="names-input">
+                                
+                                    <input id="player-1-name" class="name" type="text" placeholder="Игрок 1" maxlength="12">
+                                    <input id="player-2-name" class="name" type="text" placeholder="Игрок 2" maxlength="12">
+                                    <input id="player-3-name" class="name" type="text" placeholder="Игрок 3" maxlength="12">
+                                    
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+      
+                </main>  
+            </div>
+            <div id="page-top" class="pt-page pt-page-3">
+                <div class="container-fluid all-content">
+            <div class="container-fluid content">
+                <div class="table-result">
+                    <div class="col-md-5 col-xs-12 result-block">
+                        <div class="result-size">
+                            <h2 class="quiz-title">
+                                Количество баллов
+                            </h2>
+                            <div class="bar-chart">
+                                <div class="player1">
+                                    <div id="player1-name" class="player1-name title-3">
+                                    
+                                    </div>
+                                    <div id="player1-score" class="player1-score player-score"></div>
+                                    <div id="player1-number-score" class="title-3 player1-number-score"></div>
+                                </div>
+                                <div class="player2">
+                                    <div id="player2-name" class="player2-name title-3">
+                                    
+                                    </div>
+                                    <div id="player2-score" class="player2-score player-score"></div>
+                                    <div id="player2-number-score" class="title-3 player2-number-score"></div>
+                                </div>
+                                <div class="player3">
+                                    <div id="player3-name" class="player3-name title-3">
+                                    
+                                    </div>
+                                    <div id="player3-score" class="player3-score player-score"></div>
+                                    <div id="player3-number-score" class="title-3 player3-number-score"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-xs-12 table-questions">
+                        <div class="table-quesions-size">
+                            <h2 class="quiz-title">
+                                Вопросы викторины
+                            </h2>
+                            <table class="quiz-table title-3">
+                                <tr>
+                                    <th class="desc-cell"></th>
+                                    <th id="player01-name" class="player1-name question-cell">Константин</th>
+                                    <th id="player02-name" class="player2-name question-cell">Константин</th>
+                                    <th id="player03-name" class="player3-name question-cell">Константин</th>
+                                </tr>
+                                <tr id="table-column-2" >
+                                    <td class="desc-cell">один балл</td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForOne(cell = 'cell-2-2')" id="cell-2-2" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-2-2-rest">6</span>/6
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForOne(cell = 'cell-3-2')" id="cell-3-2" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-3-2-rest">6</span>/6
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForOne(cell = 'cell-4-2')" id="cell-4-2" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-4-2-rest">6</span>/6
+                                            </div>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="desc-cell">два балла</td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForTwo(cell = 'cell-2-3')" id="cell-2-3" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-2-3-rest">4</span>/4
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForTwo(cell = 'cell-3-3')" id="cell-3-3" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-3-3-rest">4</span>/4
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForTwo(cell = 'cell-4-3')" id="cell-4-3" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-4-3-rest">4</span>/4
+                                            </div>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="desc-cell">три балла</td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForThree(cell = 'cell-2-4')" id="cell-2-4" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-2-4-rest">2</span>/2
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForThree(cell = 'cell-3-4')" id="cell-3-4" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-3-4-rest">2</span>/2
+                                            </div>
+                                        </button>
+                                    </td>
+                                    <td class="question-cell">
+                                        <button onclick="cellForThree(cell = 'cell-4-4')" id="cell-4-4" class="start-cell">
+                                            <div class="cell-content">
+                                                <span id="cell-4-4-rest">2</span>/2
+                                            </div>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="questions">
+                    
+                    <div class="col-md-3 col-xs-12 round-block">
+                        <div class="round-size">
+                            <button class="start-btn-quiz" onclick="start()" id="start-btn">Начать</button>
+                            <h2 id="round" class="title-5 disp-none"> <span id="round-number" class="yellow">1</span> Тур</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-xs-12 round-block">
+                        <div class="name-size">
+                            <h2 id="current-name" class="title-5 disp-none"><span id="player-name" class="yellow"></span><span id="turn">, ваш ход!</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 questions-block">
+                        <div class="questions-size">
+                            <h2 class="title-5">
+                                Вопрос
+                            </h2>
+                            <div class="question" id="question">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 answers-block">
+                        <div class="answers-size">
+                            <h2 class="title-5">
+                                Варианты ответов
+                            </h2>
+                            <div class="answers">
+                               
+                                <div id="questions1" class="questions1">
+                                     <ul>
+                                        <li><button onclick="check(1)" class="myButton" id="option1"></button></li>
+
+                                        <li><button onclick="check(2)" class="myButton" id="option2"></button></li>
+
+                                        <li><button onclick="check(3)" class="myButton" id="option3"></button></li>
+
+                                        <li><button onclick="check(4)" class="myButton" id="option4"></button></li>
+                                    </ul>
+                                </div>
+                                    
+                                <div id="questions2" class="questions2">
+                                    <ul>
+                                        <li><button onclick="checkForTwo(1)" class="myButton" id="option5"></button></li>
+
+                                        <li><button onclick="checkForTwo(2)" class="myButton" id="option6"></button></li>
+
+                                        <li><button onclick="checkForTwo(3)" class="myButton" id="option7"></button></li>
+
+                                        <li><button onclick="checkForTwo(4)" class="myButton" id="option8"></button></li>
+                                    </ul>
+                                </div>    
+                                    
+                                <div id="questions3" class="questions3">
+                                    <ul>
+                                        <li><button onclick="checkForThree(1)" class="myButton" id="option9"></button></li>
+
+                                        <li><button onclick="checkForThree(2)" class="myButton" id="option10"></button></li>
+
+                                        <li><button onclick="checkForThree(3)" class="myButton" id="option11"></button></li>
+
+                                        <li><button onclick="checkForThree(4)" class="myButton" id="option12"></button></li>
+                                    </ul>
+                                </div>    
+                                
+                                <div id="right-answer" class="right-answer disp-none">
+                                    Верно!
+                                </div>
+                                <div id="wrong-answer" class="wrong-answer disp-none">
+                                    Неверно
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.dlmenu.js"></script>
+		<script src="js/pagetransitions.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>

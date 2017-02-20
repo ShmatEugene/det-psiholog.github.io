@@ -1,0 +1,355 @@
+@font-face {
+    font-family: Digital-7;
+    src: url(fonts/digital-7.ttf);
+    src: url(fonts/digital-7i.ttf);
+    src: url(fonts/digital-7m.ttf);
+    src: url(fonts/digital-7mi.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+.all-content {
+    padding: 0;
+    background-color: #f0f0eb;
+}
+
+.navigation {
+    height: 60px;
+    background-color: #1c1a2a;
+}
+
+.table-result {
+    height: 510px;
+    background-image: url(images/saraDesktop1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -90px;
+    margin-right: -90px;
+}
+
+.questions {
+    height: 464px;
+    background-color: #f0f0eb;
+}
+
+.result-block {
+    height: 400px;
+    margin-top: 85px;
+    padding: 0;
+}
+
+.table-questions {
+    height: 400px;
+    margin-top: 85px;
+    padding: 0;
+}
+
+.result-size {
+    background-color: rgba(0, 0, 0, 0.701961);
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 100%;
+    padding-right: 20px;
+    margin-left: 110px;
+}
+
+.table-quesions-size {
+    background-color: rgba(0, 0, 0, 0.701961);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    margin-right: 110px;
+}
+
+.quiz-title {
+    margin: 0;
+    padding-top: 20px;
+    color: #f0f0eb;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bar-chart {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+.player-score {
+    height: 50px;
+    background-color: rgb(185, 148, 88);
+    transition: all 2s;
+}
+
+
+
+.title-3 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.player1-score {
+    width: 0%;
+}
+
+.player2-score {
+    width: 0%;
+}
+
+.player3-score {
+    width: 0%;
+}
+
+.desc-cell {
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+
+.quiz-table {
+    margin-left: -281px;
+    margin-top: 37px;
+    position: relative;
+    left: 50%;
+}
+
+.question-cell {
+    width: 150px;
+    text-align: center;
+}
+
+.quiz-table tr, td, th {
+    height: 70px;
+    font-weight: 500;
+}
+
+.quiz-table th {
+    color: #fff;
+}
+
+
+
+
+.questions-block {
+    height: 335px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.questions-size {
+    background-color: #202020;
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 100%;
+    border: 1px solid #333145;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.answers-block {
+    height: 335px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.answers-size {
+    background-color: #202020;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    border: 1px solid #333145;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.title-5 {
+    color: rgb(185, 148, 88);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.question {
+    color: #f0f0eb;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.answers {
+    padding-top: 20px;
+}
+
+.answers ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.answers ul li button {
+    background: none;
+    border: 0;
+    color: #f0f0eb;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: justify;
+    transition: all 0.5s;
+}
+
+.answers ul li button:focus {
+    outline: 0;
+}
+
+.answers ul li button:hover {
+    color: #fff36c;
+}
+.round-block {
+    height: 64px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.round-size {
+    background-color: #202020;
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 100%;
+    border: 1px solid #333145;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.name-size {
+    background-color: #202020;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    border: 1px solid #333145;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.yellow {
+    color: #f0f0eb;
+}
+
+.disp-none {
+    display: none;
+}
+.start-btn-quiz {
+    left: 50%;
+    margin-left: -73px;
+    font-size: 32px;
+    color: rgb(185, 148, 88);
+    border: 3px solid #fff;
+    border-radius: 0;
+    padding: 6px 10px 5px 10px;
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    background: #fff;
+    transition: background, border, 1s;
+}
+
+.start-btn-quiz:hover {
+    border: 3px solid  rgb(185, 148, 88);
+    background-color: rgb(185, 148, 88);
+    color: #fff;
+}
+
+.start-cell {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-image: url(images/cell2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+    cursor: default;
+    pointer-events: none;
+}
+
+.active-cell {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-image: url(images/cell2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.inactive-cell {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-image: url(images/inactive-cell2.jpg);
+    cursor: default;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.cell-content {
+    margin-right: 20px;
+    margin-top: -28px;
+    color: rgb(51, 51, 51);
+    font-family: Digital-7;
+    font-weight: bold;
+}
+
+.myButton {
+    padding: 0;
+}
+.wrong-answer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #f51b24;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right-answer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #12ff00;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.questions2 {
+    position: absolute;
+    top: 70px;
+    max-width: 85%;
+}
+
+.questions3 {
+    position: absolute;
+    top: 70px;
+    max-width: 85%;
+}
+
+.questions1 {
+    max-width: 85%;
+}
+
+
+
+.content {
+    margin-left: 75px;
+    margin-right: 75px;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+#body {
+    overflow-y: hidden;
+}
+
+.home-wrap {
+    height: 100vh;
+    background-image: url(images/home-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.project-name {
+    font-size: 32px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    top: 300px;
+    margin-left: -200px;
+    background-color: rgba(0,0,0,.1);
+    width: 400px;
+}
+
+.start-btn {
+    font-size: 32px;
+    color: rgb(185, 148, 88);
+    border: 3px solid #fff;
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    margin-left: -78px;
+    background: #fff;
+    transition: background, border, 1s;
+    top: 300px;
+    cursor: pointer;
+}
+
+.story-carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.story-wrap {
+    padding: 0;
+}
+
+
+
+.scale {
+  position: relative;
+    top: -20px;
+  color: white;
+  height: 120px;
+  line-height: 120px;
+  margin-top: 2rem;
+  ;
+  text-align: center;
+}
+
+.story-carousel-item img {
+    animation: scaling 2s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+#story-img-1 {
+    animation: scaling 7s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 1s;
+}
+
+#story-img-2 {
+    animation: scaling 8s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 8s;
+}
+
+#story-img-3 {
+    animation: scaling 8s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 16s;
+}
+
+
+
+#story-img-4 {
+    animation: scaling 8s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 24s;
+}
+
+#story-img-5 {
+    animation: scaling 8s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 32s;
+}
+
+#story-img-6 {
+    animation: scaling 8s linear 0s forwards;
+    transition: all 100ms linear;
+    transform-origin: center;
+    width: 100%;
+    height:  auto;
+    overflow: hidden;
+    animation-delay: 40s;
+}
+
+.start-btn:hover {
+    border: 3px solid rgb(185, 148, 88);
+    background-color: rgb(185, 148, 88);
+    color: #fff;
+}
+
+.start-btn-story:hover {
+    border: 3px solid #fff;
+    background-color: rgb(185, 148, 88);
+    color: #fff;
+}
+
+.disp-none {
+    display: none;
+}
+body {
+    line-height: normal;
+}
+
+.start-btn-story {
+    font-size: 32px;
+    color: rgb(185, 148, 88);
+    border: 3px solid #fff;
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    background: #fff;
+    transition: background, border, 1s;
+    cursor: pointer;
+}
