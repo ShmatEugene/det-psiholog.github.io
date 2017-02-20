@@ -353,3 +353,19 @@
     margin-left: 75px;
     margin-right: 75px;
 }
+
+
+@media (max-width: 991px) {
+    .result-size {
+        margin-left: -10px;
+    }
+    .table-quesions-size {
+        margin-right: 20px;
+    }
+    .name-size {
+        margin-right: 0;
+    }
+    .answers-size {
+        margin-right: 0;
+    }
+}
